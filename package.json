@@ -1,0 +1,27 @@
+{
+  "name": "typescript-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rlxu@iflytek.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.0.0",
+    "prettier": "1.19.1",
+    "rollup": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/node": "^13.9.3"
+  }
+}
